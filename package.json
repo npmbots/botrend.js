@@ -1,0 +1,28 @@
+{
+  "name": "botrend.js",
+  "version": "0.1.8",
+  "description": "API Wrapper For RendDevelopment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RendDevelopment/rendapi.js.git"
+  },
+  "keywords": [
+    "rend",
+    "renddevelopment",
+    "api",
+    "api-wrapper"
+  ],
+  "author": "RendDevelopment",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RendDevelopment/rendapi.js/issues"
+  },
+  "homepage": "https://github.com/RendDevelopment/rendapi.js#readme",
+  "dependencies": {
+    "node-superfetch": "^0.1.9"
+  }
+}
