@@ -14,7 +14,7 @@ module.exports = class RendDev {
             if (ownerID !== rend.body.ownerID) throw new Error("Wrong Owner ID.")
         })
         */
-        this.baseURL = "https://renddev.glitch.me";
+        this.baseURL = "https://databaserend.glitch.me";
         this.baseAPIURL = this.baseURL + "/api";
         
         this.getBots = async (limit) => {
@@ -71,7 +71,7 @@ module.exports = class RendDev {
 }
 
 async function fetchUser(userID) {
-    const { body } = await fetch.get(`https://renddev.glitch.me/api/fetchUser?id=${userID}`)
+    const { body } = await fetch.get(`https://databaserend.glitch.me/api/fetchUser?id=${userID}`)
     if (body.error === "invalid_id") throw new Error("Invalid User ID")
     return body
 }
