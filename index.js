@@ -71,7 +71,7 @@ module.exports = class RendDev {
 }
 
 async function fetchUser(userID) {
-    const { body } = await fetch.get(`https://rend-dev.glitch.me/api/fetchUser?id=${userID}`)
+    const { body } = await fetch.get(`https://renddev.glitch.me/api/fetchUser?id=${userID}`)
     if (body.error === "invalid_id") throw new Error("Invalid User ID")
     return body
 }
