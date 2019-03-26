@@ -14,7 +14,7 @@ module.exports = class RendDev {
             if (ownerID !== rend.body.ownerID) throw new Error("Wrong Owner ID.")
         })
         */
-        this.baseURL = "https://rend-dev.glitch.me";
+        this.baseURL = "https://renddev.glitch.me";
         this.baseAPIURL = this.baseURL + "/api";
         
         this.getBots = async (limit) => {
